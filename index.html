@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title> responsive receipt</title>
+        <style>
+        body{
+         background-color: rgb(219, 237, 237);
+         }
+         .container{
+            width: 80%;
+            border: 1px solid #000;
+            margin: 0 auto;
+            background-color:white;
+            padding: 10px;
+            border-radius: 3px ;
+            box-shadow: 0 0 5px rgb(25, 25, 25);
+         }
+         .receipt-header{
+            border-bottom: 1px solid gray;
+         }
+         .logo{
+            width: 150px;
+            display: block;
+            margin: 0 auto;
+         }
+         .title{
+              text-align: center;
+         }
+         .address{
+            text-align: right;
+         }
+         .Mobile{
+            text-align: right;
+         }
+         .receipt-title{
+            text-align: center;
+            font-size: 30px;
+            margin: 20px auto;
+         }
+         .receipt-body{
+            border-bottom: 1px solid gray;
+         }
+         .receipt-details{
+            display: flex;
+            justify-content: space-around;
+            font-size: 20px;
+            margin: 20px;
+         }
+         .receipt-no{
+                color: grey;
+                width: 30%;
+
+         }
+         .receipt-value{
+               font-weight: bold;
+               border-bottom: 1px dashed gray;
+               width: 40%;
+         }
+         .signature{
+            text-align: right;
+            margin: 70px;
+            font-size: 25px;
+         }
+         .msg{
+            font-size: 20px;
+         }
+         .footer-msg{
+            text-align: center;
+            font-size: 25px;
+            font-family: monospace;
+            background-color:#ff0000;
+            padding: 20px 0px;
+         }
+   </style> 
+   </head>
+   <body>
+        <div class="container">
+         <div class="receipt-header">
+           <img src="./img/rkmm_logo.jpeg" class="logo">
+           <h1 class="title">Radhabai Kale Mahila college.</h1>
+           <p class="address">
+            012, RKMM college,<br> 
+            Bus Stand, behind Tarakpur, <br>
+            Tarakpur, Ahilya Nagar,<br>
+             Maharashtra 414001
+        </p>
+           <p class="Mobile">
+           *91-8788838060
+           </p>
+           </div>
+          <div class="receipt-body">
+            <p class="receipt-title">Fees paid Receipt</p>
+
+            <div class="receipt-details">
+                <div class="receipt-no"> Receipt No:1</div>
+                <div class="receipt-value"> 1234567890</div>
+            </div>
+            <div class="receipt-details">
+               <div class="receipt-no">Student Name:</div>
+               <div class="receipt-value">Bhosale Vaishnavi</div>
+           </div>
+           <div class="receipt-details">
+            <div class="receipt-no">Student class:</div>
+            <div class="receipt-value">SY.BBA[CA]</div>
+           </div>
+           <div class="receipt-details">
+                <div class="receipt-no"> Payment date:</div>
+                <div class="receipt-value"> 27/dec/2024</div>
+            </div>
+            <div class="receipt-details">
+                <div class="receipt-no">Amount:</div>
+                <div class="receipt-value"> 10000/-</div>
+            </div>
+            <div class="receipt-details">
+                <div class="receipt-no"> Payment mode:</div>
+                <div class="receipt-value">Cash</div>
+            </div>
+           <p class="signature"> Principle signature</p>
+           </div>
+
+           <div class="receipt-footer">
+            <p class="msg"> *This is a college admission fees receipt.*</p>
+            <br>
+            <p class="footer-msg"> Thank you for Payment🤗.</p>
+         </div>     
+       </div>
+    </body>
+</html>
